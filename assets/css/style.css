@@ -1,0 +1,36 @@
+.navbar{
+    background-color: rgb(43, 63, 79) !important;
+}
+
+/* PARTE ALTA */
+#intro{
+    background-color: rgb(33, 187, 157);
+}
+
+#intro p{
+    color: white;
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
+
+#linee-white::before, #linee-white::after,
+#linee-black::before, #linee-black::after{
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    margin: 0 1rem;
+}
+
+#linee-white::before, #linee-white::after{
+    background-color: white;
+}
+
+/* PARTE CENTRALE 1 */
+#portfolio{
+    color: rgb(43, 63, 79);
+}
+#linee-black::before, #linee-black::after{
+    background-color: rgb(43, 63, 79);
+}
