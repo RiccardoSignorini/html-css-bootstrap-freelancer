@@ -3,18 +3,19 @@
 }
 
 /* PARTE ALTA */
-#intro{
+#intro, #about{
     background-color: rgb(33, 187, 157);
 }
 
 #intro p{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding-bottom: 2rem;
+    padding-top: 0.5rem;
 }
 
-#linee-white::before, #linee-white::after,
-#linee-black::before, #linee-black::after{
+.linee-white::before, .linee-white::after,
+.linee-black::before, .linee-black::after{
     content: '';
     vertical-align: middle;
     display: inline-block;
@@ -23,14 +24,26 @@
     margin: 0 1rem;
 }
 
-#linee-white::before, #linee-white::after{
+.linee-white::before, .linee-white::after{
     background-color: white;
 }
 
 /* PARTE CENTRALE 1 */
 #portfolio{
     color: rgb(43, 63, 79);
+    padding: 2rem 1rem;
 }
-#linee-black::before, #linee-black::after{
+
+.linee-black::before, .linee-black::after{
     background-color: rgb(43, 63, 79);
+}
+
+.linee-black{
+    margin-bottom: 1rem;
+}
+
+/* PARTE CENTRALE 2 */
+#about{
+    color: white;
+    padding: 2rem 1rem;
 }
