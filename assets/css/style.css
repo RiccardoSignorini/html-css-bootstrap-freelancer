@@ -58,6 +58,19 @@
     margin-top: 2rem !important;
 }
 
+/* PARTE CENTRALE 3 */
+input.form-control, textarea.form-control{
+    border: 0;
+    border-bottom: 0.5px solid grey;
+    border-radius: 0;
+}
+
+.btn-success{
+    background-color: rgb(33, 187, 157) !important;
+    border: 0 !important;
+    margin-bottom: 1rem;
+}
+
 /* PARTE BASSA */
 #social{
     background-color: rgb(57, 85, 108);
@@ -70,15 +83,21 @@
 }
 
 #social i{
-    padding: 0.75rem;
+    padding: 0.6rem;
     border: 1px solid white;
     border-radius: 100%;
-    margin: 0 0.3rem;
+    margin: 0 0.2rem;
+    margin-bottom: 1rem;
 }
 
 #social .fa-facebook-f{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+#social .fa-linkedin-in{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
 }
 
 /* FOOTER */
